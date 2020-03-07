@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "585975513316",
+    "firebase_url": "https://testhit-99097.firebaseio.com",
+    "project_id": "testhit-99097",
+    "storage_bucket": "testhit-99097.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:585975513316:android:7edb0dcbbd18d014306cf1",
+        "android_client_info": {
+          "package_name": "com.example.hitrivia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "585975513316-8cs7264ivg70cor3tn5dpdfimvv40fbg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hitrivia",
+            "certificate_hash": "42fe4286b9fdd1eac65247188ec78d89d36b8b82"
+          }
+        },
+        {
+          "client_id": "585975513316-vuuj7tfbdbpo11kv22blbdg5upfcmi75.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDw4wdfRQ08FzFYce5XwCsn_A9YFwotqEU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "585975513316-vuuj7tfbdbpo11kv22blbdg5upfcmi75.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

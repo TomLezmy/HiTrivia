@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backGroundAccent"
+    tools:context=".Activities.GameActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2.5"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textViewScore"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2.5"
+                android:text="Score: "
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textViewLevel"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2.5"
+                android:text="Level: "
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#000000" />
+
+        </LinearLayout>
+        <FrameLayout
+            android:id="@+id/progressBarHolder"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:alpha="0.4"
+            android:animateLayoutChanges="true"
+            android:background="#000000"
+            android:visibility="gone">
+
+            <ProgressBar
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:indeterminate="true" />
+        </FrameLayout>
+        <TextView
+            android:id="@+id/textViewQuest"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@color/backGroundAccent"
+            android:text=""
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#000000"
+            android:textColorHighlight="@color/colorPrimaryDark"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnAns1"
+                style="@android:style/Widget.Button.Inset"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/button2_clickable"
+                android:onClick="onClickAnswer"
+                android:text=""
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#000000"
+                android:textColorHighlight="@color/colorPrimaryDark"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btnAns2"
+                style="@android:style/Widget.DeviceDefault.Button.Inset"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/button2_clickable"
+                android:onClick="onClickAnswer"
+                android:text=""
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#000000"
+                android:textColorHighlight="@color/colorPrimaryDark"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btnAns3"
+                style="@android:style/Widget.Button.Inset"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/button2_clickable"
+                android:onClick="onClickAnswer"
+                android:text=""
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#000000"
+                android:textColorHighlight="@color/colorPrimaryDark"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btnAns4"
+                style="@android:style/Widget.Button.Inset"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/button2_clickable"
+                android:onClick="onClickAnswer"
+                android:text=""
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#000000"
+                android:textColorHighlight="@color/colorPrimaryDark"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnExit"
+            style="@android:style/Widget.Button.Inset"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="2.5"
+            android:background="@drawable/button2_clickable"
+            android:onClick="onClickExit"
+            android:text="EXIT"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#000000"
+            android:textColorHighlight="@color/colorPrimaryDark" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
